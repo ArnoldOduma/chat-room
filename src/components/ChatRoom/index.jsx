@@ -18,13 +18,15 @@ function ChatRoom() {
 
     return (
         <>
-            <h2>{room.title}</h2>
-            <div>
-                <Link to="/">
-                    <button>
-                        ⬅️ Back to all rooms
-                    </button>
-                </Link>
+            <div className="chatroom-title">
+                <div className="room-btn">
+                    <Link to="/">
+                        {/* <button> */}
+                            ⬅️
+                        {/* </button> */}
+                    </Link>
+                </div>
+                <h2 className="room-title">{room.title}</h2>
             </div>
             <div className="messages-container">
                 <MessageList roomId={roomId} />

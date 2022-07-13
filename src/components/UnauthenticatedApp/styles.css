@@ -1,4 +1,10 @@
 .login {
     background: var(--color-blue);
-    padding: 16px;
+    /* padding: 16px; */
+}
+.login-cont{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }

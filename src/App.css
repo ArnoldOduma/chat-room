@@ -45,7 +45,7 @@ button {
   font-size: 1rem;
   color: inherit;
   border: none;
-  border-radius: var(--border-radius);
+  border-radius: 100px;
 }
 button {
   background-color: var(--color-blue);
@@ -56,12 +56,13 @@ button:hover {
 }
 .container {
   height: 100%;
-  max-width: 600px;
+  width: 600px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 32px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 10px;
 }

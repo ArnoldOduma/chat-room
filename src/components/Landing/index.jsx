@@ -6,6 +6,7 @@ import './styles.css';
 function Landing() {
     return (
         <>
+            <h1>Chat Room</h1>
             <h2>Choose a Chat Room</h2>
             <ul className="chat-room-list">
                 {chatRooms.map(chatRoom => (

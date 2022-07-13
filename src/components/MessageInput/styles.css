@@ -7,16 +7,16 @@
     padding: 12px 8px;
     flex: 1;
     background: var(--color-gray);
-    border-radius: var(--border-radius);
+    border-radius: 100px;
 }
 .message-input:focus{
     outline: none;
 }
 
 .send-message {
-    padding: 12px 14px;
+    padding: 12px 12px;
     background: var(--color-blue);
-    border-radius: var(--border-radius);
+    border-radius: 100px;
     cursor: pointer;
 }
 button:disabled{
